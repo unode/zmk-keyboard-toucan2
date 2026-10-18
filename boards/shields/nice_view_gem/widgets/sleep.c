@@ -8,6 +8,7 @@
 static bool show_sleep_screen = false;
 
 // Beekeeb icon 96x96 - LVGL indexed 1-bit format 
+// See https://javl.github.io/image2cpp/ for img2array conversion tooling
 static const uint8_t sleep_icon_map[] = {
     0x00, 0x00, 0x00, 0xff, /*Color of index 0 - black*/
     0xff, 0xff, 0xff, 0xff, /*Color of index 1 - white*/
